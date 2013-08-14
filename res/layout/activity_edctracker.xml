@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+  <Button
+      android:id="@+id/start_button"
+      android:layout_width="fill_parent" 
+      android:layout_height="fill_parent" 
+      android:layout_weight="1"
+      android:text="Connect To Broker"
+      android:onClick="onButtonConnect"
+      />
+  <Button
+      android:layout_width="fill_parent" 
+      android:layout_height="fill_parent" 
+      android:layout_weight="1"
+      android:text="Disconnect From Broker"
+      android:onClick="onButtonDisconnect"
+      />
+</LinearLayout>
